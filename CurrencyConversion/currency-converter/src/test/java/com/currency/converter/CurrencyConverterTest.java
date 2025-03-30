@@ -15,5 +15,6 @@ public class CurrencyConverterTest {
         assertEquals(118.0, converter.convert("EUR", "USD", 100), 0.01);
         assertEquals(75.0, converter.convert("USD", "GBP", 100), 0.01);
         assertEquals(133.0, converter.convert("GBP", "USD", 100), 0.01);
+
     }
 }
